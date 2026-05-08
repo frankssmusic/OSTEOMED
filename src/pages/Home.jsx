@@ -3,7 +3,6 @@ import React from 'react';
 import Navbar from '../components/layout/Navbar';
 import Footer from '../components/layout/Footer';
 import Hero from '../components/sections/Hero';
-import Convenios from '../components/sections/Convenios';
 import Galeria from '../components/sections/Galeria';
 import Especialidades from '../components/sections/Especialidades';
 import Urgencias from '../components/sections/Urgencias';
@@ -15,7 +14,6 @@ const Home = () => {
     <div className="min-h-screen">
       <Navbar />
       <Hero />
-      <Convenios />
       <Galeria />
       <Especialidades />
       <Urgencias />

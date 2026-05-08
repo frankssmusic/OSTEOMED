@@ -7,21 +7,27 @@ export default {
   theme: {
     extend: {
       colors: {
-        green: '#1A6B5A',
-        'green-dark': '#134d40',
-        'green-light': '#228974',
-        'green-pale': '#e8f5f2',
-        'green-mid': '#c5e8e1',
-        'gray-700': '#1e3530',
-        'gray-500': '#4a6660',
-        'gray-300': '#8fa89f',
-        'gray-100': '#e2eae8',
-        emergency: '#c0392b',
-        gold: '#c9943a',
+        // Paleta Jet Set — azul grisáceo elegante
+        primary:     '#8397B1',   // Jet Set principal
+        'primary-dark':  '#3D4A5C',   // slate oscuro (tono del logo)
+        'primary-deeper': '#2a3545',  // footer y fondos profundos
+        'primary-light': '#b8c4d4',   // acentos claros
+        'primary-pale':  '#eef1f6',   // fondos de secciones alternas
+        'primary-mid':   '#d0d9e8',   // bordes y separadores
+
+        // Texto
+        'text-dark':  '#1e2a38',  // casi negro con tono azul
+        'text-mid':   '#4a5868',  // textos secundarios
+        'text-light': '#8a99aa',  // textos terciarios
+
+        // Utilidades
+        emergency:   '#c0392b',   // urgencias (se mantiene)
+        gold:        '#c9943a',   // avisos integración futura
+        'off-white': '#f8f9fb',   // fondo general
       },
       fontFamily: {
         display: ['Sora', 'sans-serif'],
-        body: ['Inter', 'sans-serif'],
+        body:    ['Inter', 'sans-serif'],
       },
     },
   },

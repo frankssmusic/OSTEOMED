@@ -111,12 +111,12 @@ const Hero = () => {
         </video>
       </div>
 
-      {/* Overlay verde — siempre encima de los videos */}
+      {/* Overlay — siempre encima de los videos */}
       <div
         className="absolute inset-0"
         style={{
           zIndex: 10,
-          background: 'linear-gradient(110deg, rgba(13,77,64,0.93) 0%, rgba(13,77,64,0.82) 50%, rgba(13,77,64,0.45) 100%)'
+          background: 'linear-gradient(110deg, rgba(42,53,69,0.93) 0%, rgba(42,53,69,0.82) 50%, rgba(42,53,69,0.45) 100%)'
         }}
       />
 
@@ -165,7 +165,7 @@ const Hero = () => {
         >
           <button
             className="px-8 py-3 rounded-md font-semibold transition-colors"
-            style={{ background: '#fff', color: '#134d40', fontFamily: 'Sora, sans-serif', fontSize: '15px' }}
+            style={{ background: '#fff', color: '#3D4A5C', fontFamily: 'Sora, sans-serif', fontSize: '15px' }}
           >
             Agendar Hora
           </button>
@@ -185,7 +185,7 @@ const Hero = () => {
           transition={{ duration: 0.8, delay: 0.6 }}
         >
           <div style={{ background: 'rgba(255,255,255,0.09)', backdropFilter: 'blur(12px)', border: '1px solid rgba(255,255,255,0.15)', borderRadius: '12px', padding: '16px', textAlign: 'left' }}>
-            <Clock className="w-5 h-5 mb-2" style={{ color: '#a8e6da' }} />
+            <Clock className="w-5 h-5 mb-2" style={{ color: '#b8c4d4' }} />
             <p style={{ fontSize: '13px', fontWeight: 600, marginBottom: '4px', fontFamily: 'Sora, sans-serif' }}>Horario General</p>
             <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>Lun–Vie: 9:30–12:00 / 15:00–21:00</p>
             <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>Sábados: 15:30–18:30</p>
@@ -196,7 +196,7 @@ const Hero = () => {
             <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.85)', fontFamily: 'Inter, sans-serif' }}>Vie y Sáb: 23:00 – 05:00</p>
           </div>
           <div style={{ background: 'rgba(255,255,255,0.09)', backdropFilter: 'blur(12px)', border: '1px solid rgba(255,255,255,0.15)', borderRadius: '12px', padding: '16px', textAlign: 'left' }}>
-            <MapPin className="w-5 h-5 mb-2" style={{ color: '#a8e6da' }} />
+            <MapPin className="w-5 h-5 mb-2" style={{ color: '#b8c4d4' }} />
             <p style={{ fontSize: '13px', fontWeight: 600, marginBottom: '4px', fontFamily: 'Sora, sans-serif' }}>Dirección</p>
             <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>Vittorio Cuccuini 620</p>
             <p style={{ fontSize: '12px', color: 'rgba(255,255,255,0.65)', fontFamily: 'Inter, sans-serif' }}>Punta Arenas, Magallanes</p>

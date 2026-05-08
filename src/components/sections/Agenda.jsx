@@ -57,7 +57,7 @@ const Agenda = () => {
 
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
           {/* Formulario */}
-          <div className="bg-green-pale rounded-lg p-8">
+          <div className="bg-primary-pale rounded-lg p-8">
             <form onSubmit={handleSubmit} className="space-y-6">
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <div>
@@ -70,7 +70,7 @@ const Agenda = () => {
                     value={formData.nombre}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
                 <div>
@@ -83,7 +83,7 @@ const Agenda = () => {
                     value={formData.telefono}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
@@ -97,7 +97,7 @@ const Agenda = () => {
                   value={formData.especialidad}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 >
                   <option value="">Seleccionar especialidad</option>
                   {especialidades.map((esp) => (
@@ -119,7 +119,7 @@ const Agenda = () => {
                     value={formData.fecha}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
                 <div>
@@ -132,7 +132,7 @@ const Agenda = () => {
                     value={formData.horario}
                     onChange={handleChange}
                     required
-                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                    className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                   />
                 </div>
               </div>
@@ -146,7 +146,7 @@ const Agenda = () => {
                   value={formData.mensaje}
                   onChange={handleChange}
                   rows={3}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-green"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-primary"
                 ></textarea>
               </div>
 
@@ -193,7 +193,7 @@ const Agenda = () => {
             </div>
 
             {/* Card Contacto */}
-            <div className="bg-green-pale rounded-lg p-6">
+            <div className="bg-primary-pale rounded-lg p-6">
               <h3 className="text-xl font-semibold text-gray-700 mb-4 flex items-center">
                 <Calendar className="w-6 h-6 mr-2" />
                 Información de Contacto
