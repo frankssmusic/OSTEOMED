@@ -32,7 +32,7 @@ export default function App() {
         {/* Logo */}
         <div className="mb-10">
           <img 
-            src="/logo_osteomed.jpg" 
+            src="/logo_osteomed.png"
             alt="OSTEOMED — Centro Médico y Dental" 
             className="w-64 sm:w-80 mx-auto rounded-lg shadow-2xl"
           />
