@@ -1,4 +1,3 @@
-App · JSX
 // LANDING PROXIMAMENTE - TEMPORAL
 // Cuando el sitio este listo, reemplaza con App.original.jsx
  
