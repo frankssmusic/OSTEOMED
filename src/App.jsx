@@ -1,9 +1,6 @@
 App · JSX
-// =============================================
-// LANDING "PRÓXIMAMENTE" — TEMPORAL
-// Cuando el sitio esté listo, reemplaza este archivo
-// con el App.jsx original (respaldado como App.original.jsx)
-// =============================================
+// LANDING PROXIMAMENTE - TEMPORAL
+// Cuando el sitio este listo, reemplaza con App.original.jsx
  
 import { useEffect, useState } from 'react'
  
